@@ -1,0 +1,48 @@
+html { 
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    margin: 0;
+}
+#container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#keys{
+    display: flex;
+    height: 100%;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+#keys div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    color: white;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    transition: all 250;
+    border-radius: 5px;
+}
+#keys div h1{
+    margin: 10px;
+}
+#keys div p{
+    color: rgb(255, 198, 0);
+}
+#keys div.playing{
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem #ffc600;
+}
+audio{
+    display: none;
+}
