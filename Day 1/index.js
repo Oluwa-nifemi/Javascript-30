@@ -1,5 +1,5 @@
 //Check whether user is using phone or laptop via OS
-if(!(navigator.userAgent.toLowerCase().includes('windows') || navigator.userAgent.toLowerCase().includes('macintosh') || navigator.userAgent.toLowerCase().includes('linux'))){
+if(navigator.userAgent.toLowerCase().includes('windows') || navigator.userAgent.toLowerCase().includes('macintosh') || navigator.userAgent.toLowerCase().includes('linux')){
 //If phone listen for keypress
     window.addEventListener('keydown',(e) => {
         //Select element that matches the keypressed
