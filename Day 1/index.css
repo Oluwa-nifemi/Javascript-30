@@ -46,3 +46,10 @@ body{
 audio{
     display: none;
 }
+
+@media(min-width : 600px){
+    #keys{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
