@@ -21,7 +21,7 @@ if(navigator.userAgent.toLowerCase().includes('windows') || navigator.userAgent.
 }else{
     //Select all divs with class of key and add event listener of click to them
     document.querySelectorAll('div.key').forEach((e) => {
-        e.addEventListener('click',(e) => { 
+        e.addEventListener('touchstart',(e) => { 
             //Initialize path variable,key variable and element variable
             const paths = e.path;
             let element;
