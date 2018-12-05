@@ -1,25 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-color: aqua;
+}
 #clock{
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    border: 5px solid;
+    border: 5px solid #71009699;
     margin: auto;
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 10px;
-}
-body{
-    display: flex;
-    align-items: center;
+    box-sizing: border-box;
 }
 #clock div{
     transform-origin: bottom;
     position: absolute;
     background: black;
 }
-#hour-hand,#minute-hand{
-    height: 90%;
+#hour-hand{
+    height: 95%;
+    width: 5px;
+}
+#minute-hand{
+    height: 85%;
     width: 5px;
 }
 .wrapper{
@@ -29,5 +35,5 @@ body{
 }
 #second-hand{
     width: 4px;
-    height: 80%;
+    height: 75%;
 }
