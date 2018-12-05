@@ -1,0 +1,33 @@
+#clock{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+body{
+    display: flex;
+    align-items: center;
+}
+#clock div{
+    transform-origin: bottom;
+    position: absolute;
+    background: black;
+}
+#hour-hand,#minute-hand{
+    height: 90%;
+    width: 5px;
+}
+.wrapper{
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+}
+#second-hand{
+    width: 4px;
+    height: 80%;
+}
